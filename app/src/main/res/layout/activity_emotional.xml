@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Emotional"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIPS AND EMOTIONAL"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Tips"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELLNESS SECTION"
+        android:textSize="30dp"
+        android:layout_below="@id/Tips"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/MyDiary"
+        android:src="@drawable/diary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Diary"
+        android:textSize="20dp"
+        android:layout_below="@+id/MyDiary"
+        android:layout_marginLeft="40dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/MyDiary"
+        android:id="@+id/ThinkPos"
+        android:src="@drawable/positive"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Think Positive"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/MyDiary"
+        android:layout_below="@id/MyDiary"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/ThinkPos"
+        android:src="@drawable/exercise"
+        android:id="@+id/SMT"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stress"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/ThinkPos"
+        android:layout_below="@id/MyDiary"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/smt1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Management"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/ThinkPos"
+        android:layout_below="@id/smt1"
+        android:id="@+id/smt2"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Techniques"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/ThinkPos"
+        android:layout_below="@id/smt2"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:id="@+id/Inspired"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/MyDiary"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/exercise" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inspirational"
+        android:textSize="20dp"
+        android:id="@+id/ins"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/Inspired"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="People"
+        android:textSize="20dp"
+        android:layout_below="@id/ins"
+        android:layout_marginLeft="40dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/Inspired"
+        android:layout_below="@+id/ThinkPos"
+        android:src="@drawable/exercise"
+        android:id="@+id/Alone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alone Time"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/MyDiary"
+        android:layout_below="@id/Alone"
+        android:layout_marginLeft="30dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/Alone"
+        android:id="@+id/SelfDis"
+        android:layout_below="@+id/SMT"
+        android:src="@drawable/exercise"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Self Discovery"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/Alone"
+        android:layout_below="@id/SelfDis"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/selfdis"/>
+
+</RelativeLayout>

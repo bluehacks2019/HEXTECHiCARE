@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exercise">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercise"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MONDAY"
+        android:textSize="40sp"
+        android:background="@drawable/circle2"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:id="@+id/Monday"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="Monds"
+        android:clickable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TUESDAY"
+        android:textSize="40sp"
+        android:background="@drawable/circle2"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:id="@+id/TUESDAY"
+        android:layout_toRightOf="@id/Monday"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="Tues"
+        android:clickable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WEDNESDAY"
+        android:textSize="33sp"
+        android:background="@drawable/circle2"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:id="@+id/WEDNESDAY"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/Monday"
+        android:onClick="Wed"
+        android:clickable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THURSDAY"
+        android:textSize="33sp"
+        android:background="@drawable/circle2"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:id="@+id/THURSDAY"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/Monday"
+        android:layout_toRightOf="@id/WEDNESDAY"
+        android:onClick="onClick"
+        android:clickable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FRIDAY"
+        android:textSize="40sp"
+        android:background="@drawable/circle2"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:id="@+id/FRIDAY"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/WEDNESDAY"
+        android:onClick="onClick"
+        android:clickable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SATURDAY"
+        android:textSize="40sp"
+        android:background="@drawable/circle2"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:id="@+id/SATURDAY"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/WEDNESDAY"
+        android:layout_toRightOf="@id/FRIDAY"
+        android:onClick="onClick"
+        android:clickable="true" />
+
+</RelativeLayout>

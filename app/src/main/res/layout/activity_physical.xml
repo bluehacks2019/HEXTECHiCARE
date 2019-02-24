@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Physical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIPS AND PHYSICAL WELLNESS"
+        android:id="@+id/tip"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tip"
+        android:id="@+id/monitor"
+        android:text="MONITORING SECTION"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Why do we need to be physically fit?"
+        android:layout_below="@id/monitor"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/exercise"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp"
+        android:id="@+id/Exercise" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Exercise"
+        android:layout_below="@id/Exercise"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/alarm"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="200dp"
+        android:id="@+id/RestTime" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rest Time"
+        android:layout_below="@id/RestTime"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="167dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/foods"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="200dp"
+        android:id="@+id/Healthy" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Health Recipes"
+        android:layout_below="@id/Healthy"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="300dp" />
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/exercise"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="370dp"
+        android:id="@+id/HealthF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Health Facts"
+        android:layout_below="@id/HealthF"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="90dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/exercise"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="370dp"
+        android:id="@+id/EOV" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Effects of Vices"
+        android:layout_below="@id/EOV"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="230dp" />
+</RelativeLayout>

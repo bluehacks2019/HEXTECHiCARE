@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Other_activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/physical"
+            android:id="@+id/Physicall"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Physical"
+            android:layout_below="@id/Physicall"
+            android:layout_marginLeft="20dp"/>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/emotional"
+            android:layout_toRightOf="@id/Physicall"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Emotional"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emotional"
+            android:layout_below="@id/Physicall"
+            android:layout_marginLeft="130dp"/>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/social"
+            android:layout_marginLeft="220dp"
+            android:id="@+id/Social"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Social"
+            android:layout_below="@id/Physicall"
+            android:layout_marginLeft="250dp"/>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/intelligence"
+            android:id="@+id/Intellectual"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intellectual"
+            android:layout_below="@id/Intellectual"
+            android:layout_marginLeft="15dp"/>
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/spiritual"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="150dp"
+            android:id="@+id/Spiritual"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spiritual"
+            android:layout_below="@id/Spiritual"
+            android:layout_marginLeft="244dp"/>
+
+    </RelativeLayout>
+</FrameLayout>

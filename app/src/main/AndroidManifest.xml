@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.icare">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MyDiary2"></activity>
+        <activity android:name=".Wednesday4" />
+        <activity android:name=".Wednesday3" />
+        <activity android:name=".Wednesday2" />
+        <activity android:name=".Wednesday" />
+        <activity android:name=".Tuesday4" />
+        <activity android:name=".Tuesday3" />
+        <activity android:name=".tuesday2" />
+        <activity android:name=".Tuesday" />
+        <activity android:name=".Monday4" />
+        <activity android:name=".Monday3" />
+        <activity android:name=".Monday2" />
+        <activity android:name=".MustRead" />
+        <activity android:name=".Arts" />
+        <activity android:name=".LifeHacks" />
+        <activity android:name=".Intellectual" />
+        <activity android:name=".Employment" />
+        <activity android:name=".SchedulePlanner" />
+        <activity android:name=".InspirationalB" />
+        <activity android:name=".Occupational" />
+        <activity android:name=".Prayer" />
+        <activity android:name=".LifeTeaching" />
+        <activity android:name=".BibleVerses" />
+        <activity android:name=".InspirationalQ" />
+        <activity android:name=".Spiritual" />
+        <activity android:name=".SelfDiscovery" />
+        <activity android:name=".AloneTime" />
+        <activity android:name=".Inspirational" />
+        <activity android:name=".SMT" />
+        <activity android:name=".ThinkPositive" />
+        <activity android:name=".MyDiary" />
+        <activity android:name=".Emotional" />
+        <activity android:name=".Chat" />
+        <activity android:name=".Register" />
+        <activity android:name=".Login" />
+        <activity android:name=".Tips" />
+        <activity android:name=".Social" />
+        <activity android:name=".HealthFact" />
+        <activity android:name=".sample" />
+        <activity android:name=".HealthRecipes" />
+        <activity android:name=".Physical" />
+        <activity android:name=".RestTime" />
+        <activity android:name=".Monday" />
+        <activity android:name=".Exercise" />
+        <activity android:name=".Wellness" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Other_activity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

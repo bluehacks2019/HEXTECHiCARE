@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HealthRecipes">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monday"
+        android:textSize="30dp"
+        android:id="@+id/Monday"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Breakfast"
+        android:id="@+id/MBreakfast"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="40dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="55dp"
+        android:layout_toRightOf="@+id/MBreakfast"
+        android:text="Sun Butter, Banana and Chia Seed Toast"
+        android:textSize="10dp"
+        android:id="@+id/MBBreakfast"/>
+
+    <TextView
+        android:id="@+id/MLunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MBreakfast"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="35dp"
+        android:text="Lunch" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@+id/MLunch"
+        android:text="Grilled Steak Tortilla Salad"
+        android:textSize="10dp"
+        android:id="@+id/MBLunch"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dinner"
+        android:id="@+id/MDinner"
+        android:layout_below="@+id/MLunch"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="150dp"
+        android:layout_toRightOf="@+id/MDinner"
+        android:text="Chicken and tomato spiced curry recipe"
+        android:textSize="10dp"
+        android:id="@+id/MBDinner"/>
+
+</RelativeLayout>
